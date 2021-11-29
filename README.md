@@ -1,4 +1,4 @@
-###**Αρχιτεκτονική Προηγμένων Υπολογιστών**
+**Αρχιτεκτονική Προηγμένων Υπολογιστών**
 1. CPU: minor  
    _Από το starter-se.py:_  
    CPU frequency: 1GHz  
@@ -31,7 +31,7 @@
 
 
 
-##_**Πηγές**_  
+_**Πηγές**_  
 [CPU models](https://www.gem5.org/documentation/general_docs/cpu_models/SimpleCPU)
 
 _**Σημείωση:** Έχω αντικαταστήσει την κάτω παύλα με κανονική._
