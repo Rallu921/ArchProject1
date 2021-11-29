@@ -1,5 +1,5 @@
 ###**Αρχιτεκτονική Προηγμένων Υπολογιστών**
-1. CPU: minor
+1. CPU: minor  
    _Από το starter-se.py:_  
    CPU frequency: 1GHz  
    Number of CPU cores: 1  
@@ -9,9 +9,9 @@
    Physical memory size: 2GB  
 
 
-2. sim-seconds    0.000035                       # Number of seconds simulated  
-   sim-insts                                        5027                       # Number of instructions simulated  
-   host-inst-rate                                  80811                       # Simulator instruction rate (inst/s)  
+2. **sim-seconds:**                                   0.000035                       _# Number of seconds simulated_ 
+   **sim-insts:**                                        5027                       _# Number of instructions simulated_  
+   **host-inst-rate:**                                  80811                       _# Simulator instruction rate (inst/s)_  
 
 
 3. Total-Inst-num=5027  
@@ -31,7 +31,7 @@
 
 
 
-##_**Πηγές**_
+##_**Πηγές**_  
 [CPU models](https://www.gem5.org/documentation/general_docs/cpu_models/SimpleCPU)
 
 _**Σημείωση:** Έχω αντικαταστήσει την κάτω παύλα με κανονική._
