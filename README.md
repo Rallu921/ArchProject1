@@ -9,7 +9,7 @@
    Physical memory size: 2GB  
 
 
-2. sim-seconds                                  0.000035                       # Number of seconds simulated  
+2. sim-seconds    0.000035                       # Number of seconds simulated  
    sim-insts                                        5027                       # Number of instructions simulated  
    host-inst-rate                                  80811                       # Simulator instruction rate (inst/s)  
 
