@@ -14,7 +14,8 @@
    **host-inst-rate:**                                  80811                       _# Simulator instruction rate (inst/s)_  
 
 
-3. Total-Inst-num=5027  
+3. Τα stats από το Hello world βρίσκονται στο hello_results.  
+   Total-Inst-num=5027  
    All misses were 0 (???)  
    CPI=1  
    
@@ -26,6 +27,8 @@
   * _TimingSimpleCPU:_ Είνια πιο περίπλοκο. Η εκτέλεση των εντολών χρειάζεται περισσότερο χρόνο.
 * **Minor:** Έχει ορισμένο pipeline, αλλά προσαρμόσιμα data structures και τρόπο εκτέλεσης.  
   
+  
+  a. Τα στατιστικά βρίσκονται στους φακέλους proj_re_minor και proj_re_timing για το MinorCPU και το TimingSimpleCPU αντίστοιχα. Μέσα σε αυτούς τους φακέλους υπάρχει από ένας φάκελος που λέγεται new_feat (freq: 2GHz) και περιέχει τα αντίστοιχα stats για διαφορετική συχνότητα. 
 
 
 
@@ -34,4 +37,4 @@
 _**Πηγές**_  
 [CPU models](https://www.gem5.org/documentation/general_docs/cpu_models/SimpleCPU)
 
-_**Σημείωση:** Έχω αντικαταστήσει την κάτω παύλα με κανονική._
+_**Σημείωση:** Έχουμε αντικαταστήσει την κάτω παύλα με κανονική._
