@@ -28,7 +28,9 @@
 * **Minor:** Έχει ορισμένο pipeline, αλλά προσαρμόσιμα data structures και τρόπο εκτέλεσης.  
   
   
-  a. Τα στατιστικά βρίσκονται στους φακέλους proj_re_minor και proj_re_timing για το MinorCPU και το TimingSimpleCPU αντίστοιχα. Μέσα σε αυτούς τους φακέλους υπάρχει από ένας φάκελος που λέγεται new_feat (freq: 2GHz) και περιέχει τα αντίστοιχα stats για διαφορετική συχνότητα. 
+  a. Τα στατιστικά βρίσκονται στους φακέλους proj_re_minor και proj_re_timing για το MinorCPU και το TimingSimpleCPU αντίστοιχα. Μέσα σε αυτούς τους φακέλους υπάρχει από ένας φάκελος που λέγεται new_feat (freq: 2GHz) και περιέχει τα αντίστοιχα stats για διαφορετική συχνότητα.  
+  
+  ![different-stats-minor](file:///C:/Users/sarid/Downloads/different_stats_minor%20(1).html)
 
 
 
