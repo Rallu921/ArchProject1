@@ -31,9 +31,9 @@
   a. Τα στατιστικά βρίσκονται στους φακέλους proj_re_minor και proj_re_timing για το MinorCPU και το TimingSimpleCPU αντίστοιχα. Μέσα σε αυτούς τους φακέλους υπάρχει από ένας φάκελος που λέγεται new_feat (freq: 2GHz) και περιέχει τα αντίστοιχα stats για διαφορετική συχνότητα.  
   
   
->![different-stats-minor](https://github.com/Rallu921/ArchProject1/blob/main/different_stats_timing.png)  
+>![different-stats-minor](https://github.com/Rallu921/ArchProject1/blob/main/different_stats_minor.png)  
 
->![different-stats-timing](https://github.com/Rallu921/ArchProject1/blob/main/different_stats_minor.png)  
+>![different-stats-timing](https://github.com/Rallu921/ArchProject1/blob/main/different_stats_timing.png)  
 
 
 
