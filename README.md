@@ -1,4 +1,4 @@
-###Αρχιτεκτονική Προηγμένων Υπολογιστών
+### Αρχιτεκτονική Προηγμένων Υπολογιστών
 1. CPU: minor  
    _Από το starter-se.py:_  
    >CPU frequency: 1GHz  
@@ -31,21 +31,21 @@
   
   
 Το πρόγραμμα C που γράψαμε είναι στο project1/code/simplecode.c
-Τα στατιστικά βρίσκονται στους φακέλους proj-re-minor και proj-re-timing για το MinorCPU και το TimingSimpleCPU αντίστοιχα. Μέσα σε κάθε φάκελο υπάρχουν οι φάκελοι "default", "clock", "mem" και "comb" για τα αρχικά χαρακτηριστικά, clock στα 3GHz, τύπο μνήμης DDR4-2400-4x16 και συνδυασμό του clock=3GHz και της μνήμης DDR4-2400-4x16 αντίστοιχα. Στους φακέλους αυτούς βρίσκονται τα αντίστοιχα αρχεία _config.dot_, _config.dot.pdf_, _config.dot.svg_, _config.ini_, _config.json_, _stats.txt_  
->_(Terminal command lines:  
+Τα στατιστικά βρίσκονται στους φακέλους proj-re-minor και proj-re-timing για το MinorCPU και το TimingSimpleCPU αντίστοιχα. Μέσα σε κάθε φάκελο υπάρχουν οι φάκελοι "default", "clock", "mem" και "comb" για τα αρχικά χαρακτηριστικά, clock στα 3GHz, τύπο μνήμης DDR4-2400-4x16 και συνδυασμό του clock=3GHz και της μνήμης DDR4-2400-4x16 αντίστοιχα. Στους φακέλους αυτούς βρίσκονται τα αντίστοιχα αρχεία _config.dot_, _config.dot.pdf_, _config.dot.svg_, _config.ini_, _config.json_, _stats.txt_.  
+_(Terminal command lines:  
 > ./build/ARM/gem5.opt configs/example/se.py --cpu-type=MinorCPU --caches -c project1/code/simplecode-arm  
 > ./build/ARM/gem5.opt -d proj-re-minor/default configs/example/se.py --cpu-type=MinorCPU --caches -c project1/code/simplecode-arm  
 >  
 > ./build/ARM/gem5.opt configs/example/se.py --cpu-type=TimingSimpleCPU --caches -c project1/code/simplecode-arm  
 > ./build/ARM/gem5.opt -d proj-re-timing/default configs/example/se.py --cpu-type=TimingSimpleCPU --caches -c project1/code/simplecode-arm  
 >  
-> flags: --cpu-clock=3GHz & --mem-type=DDR4-2400-4x16)  
+> flags: --cpu-clock=3GHz & --mem-type=DDR4-2400-4x16)_  
  
 Τα πιο σημαντικά στοιχεία για κάθε CPU τα παραθέτουμε στους πίνακες στις επόμενες δύο φωτογραφίες:  
 
->![different-stats-minor](https://github.com/Rallu921/ArchProject1/blob/main/different_stats_minor.png)  
+![different-stats-minor](https://github.com/Rallu921/ArchProject1/blob/main/different_stats_minor.png)  
 
->![different-stats-timing](https://github.com/Rallu921/ArchProject1/blob/main/different_stats_timing.png)  
+![different-stats-timing](https://github.com/Rallu921/ArchProject1/blob/main/different_stats_timing.png)  
 
 
 
@@ -57,8 +57,10 @@ _**Πηγές**_
 [MinorCPU](https://www.gem5.org/documentation/general_docs/cpu_models/minor_cpu)  
  
 
-_**Σημείωση1:** Έχουμε αντικαταστήσει την κάτω παύλα με κανονική για πρακτικούς λόγους._
+_**Σημείωση1:** 
+Έχουμε αντικαταστήσει την κάτω παύλα με κανονική για πρακτικούς λόγους._
 
 
-_**Σημείωση2:** Ως κριτική για την εργασία, αντιμετωπίσαμε αρκετά προβλήματα όσο προσπαθούσαμε να την ολοκληρώσουμε. Δεν είχαμε ξαναχρησιμοποιήσει terminal ούτε ξέραμε gme5. Αργήσαμε αρκετά να καταλάβουμε το τι έπρεπε να κάνουμε και πώς, ενώ επιπλέον μας δυσκόλεψε το γεγονός ότι υπήρχαν τυπογραφικά λάθη στις εντολές που μας δώθηκαν στην εκφώνηση. Κάποια από τα λάθη αυτά τα εντοπίσαμε μόνοι μας, ενώ κάποια άλλα τα μάθαμε στο εργαστήριο, οπότε και καταφέραμε να ολοκληρώσουμε την εργασία. Η προσπάθεια που κάναμε μόνοι μας και κυρίως το εργαστήριο μας βοήθησαν να καταλάβουμε το τι έπρεπε να κάνουμε. Μετά το εργαστήριο τελικά η εργασία μας φάνηκε απλή._
+_**Σημείωση2:** 
+Ως κριτική για την εργασία, αντιμετωπίσαμε αρκετά προβλήματα όσο προσπαθούσαμε να την ολοκληρώσουμε. Δεν είχαμε ξαναχρησιμοποιήσει terminal ούτε ξέραμε gme5. Αργήσαμε αρκετά να καταλάβουμε το τι έπρεπε να κάνουμε και πώς, ενώ επιπλέον μας δυσκόλεψε το γεγονός ότι υπήρχαν τυπογραφικά λάθη στις εντολές που μας δώθηκαν στην εκφώνηση. Κάποια από τα λάθη αυτά τα εντοπίσαμε μόνοι μας, ενώ κάποια άλλα τα μάθαμε στο εργαστήριο, οπότε και καταφέραμε να ολοκληρώσουμε την εργασία. Η προσπάθεια που κάναμε μόνοι μας και κυρίως το εργαστήριο μας βοήθησαν να καταλάβουμε το τι έπρεπε να κάνουμε. Μετά το εργαστήριο τελικά η εργασία μας φάνηκε απλή._
 
